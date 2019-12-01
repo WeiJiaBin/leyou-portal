@@ -318,14 +318,14 @@
                             <div class="price">
                                 <strong>
                                     <em>¥</em>
-                                    <i>{{goods.selected.price}}</i>
+                                    <i>{{ly.formatPrice(goods.selected.price)}}</i>
                                 </strong>
                             </div>
                             <div class="attr">
-                                <em>{{goods.selected.title}}}</em>
+                                <em>{{goods.selected.title.length > 25 ? goods.selected.title.substring(0,25): goods.selected.title}}</em>
                             </div>
                             <div class="cu">
-                                <em><span>促</span>{{goods.subtitle}}</em>
+                                <em>{{goods.subTitle.length > 20 ? goods.subTitle.substring(0,20) : goods.subTitle }}</em>
                             </div>
                             <div class="commit">
                                 <i class="command">已有2000人评价</i>
