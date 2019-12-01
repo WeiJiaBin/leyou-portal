@@ -1195,7 +1195,6 @@
       <change afterPath="$PROJECT_DIR$/plugins/sui/sui.min.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/plugins/sui/sui.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/seckill-index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/seckill-item.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/shortcut.html" afterDir="false" />
@@ -4623,6 +4622,9 @@
       <change afterPath="$PROJECT_DIR$/../wn2019-shareProject-master/shareProject/target/maven-archiver/pom.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../wn2019-shareProject-master/shareProject/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../wn2019-shareProject-master/shareProject/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou/.idea/compiler.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -4636,8 +4638,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="303" column="35" selection-start-line="303" selection-start-column="35" selection-end-line="303" selection-end-column="35" />
+            <state relative-caret-position="360">
+              <caret line="501" column="51" selection-start-line="501" selection-start-column="51" selection-end-line="501" selection-end-column="51" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -4655,7 +4657,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -4693,10 +4695,10 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="530" />
-    <option name="y" value="27" />
+    <option name="x" value="483" />
+    <option name="y" value="50" />
     <option name="width" value="1430" />
-    <option name="height" value="1019" />
+    <option name="height" value="1020" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -4705,6 +4707,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -4716,7 +4719,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -4761,18 +4763,27 @@
       <workItem from="1575096841851" duration="7901000" />
       <workItem from="1575116773692" duration="3481000" />
       <workItem from="1575123025513" duration="2823000" />
-      <workItem from="1575126184983" duration="117000" />
+      <workItem from="1575126184983" duration="625000" />
+      <workItem from="1575179948741" duration="2035000" />
     </task>
+    <task id="LOCAL-00001" summary="渲染页面1.0">
+      <created>1575126429476</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575126429476</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24701000" />
+    <option name="totallyTimeSpent" value="27244000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="482" y="13" width="1144" height="815" extended-state="0" />
+    <frame x="387" y="40" width="1144" height="816" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19060774" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.043278083" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="设计器" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -4789,7 +4800,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.17569546" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.1754386" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32986626" />
       <window_info anchor="bottom" id="调试" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -4806,14 +4817,19 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="渲染页面1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="渲染页面1.0" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="303" column="35" selection-start-line="303" selection-start-column="35" selection-end-line="303" selection-end-column="35" />
+        <state relative-caret-position="360">
+          <caret line="501" column="51" selection-start-line="501" selection-start-column="51" selection-end-line="501" selection-end-column="51" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />

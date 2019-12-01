@@ -308,8 +308,8 @@
                                 <a href="item.html" target="_blank"><img :src="goods.selected.image" height="200"/></a>
                                 <!--多sku图片列表-->
                                 <ul class="skus">
-                                    <li :class="{selected: sku.id == goods.selected.id}" v-for="sku in goods.skus" :key="sku.id"
-                                        @click="goods.selected=sku">
+                                    <li :class="{selected: sku.id == goods.selected.id}" v-for="(sku,j) in goods.skus"
+                                        @mouseOver="goods.selected=sku">
                                         <img :src="sku.image">
                                     </li>
                                 </ul>
@@ -494,12 +494,14 @@
                 //发送到后台
                 ly.http.post("/search/page",this.search).then(({data}) => {
 
-                    this.goodsList = data.items;
-                    this.goodsList.forEach(goods => {
+
+                    data.items.forEach(goods => {
                         goods.skus = JSON.parse(goods.skus);
                         goods.selected = goods.skus[0];
                     });
-                    console.log(this.goodsList);
+                    //先将数据源处理赋值后再赋值给goodslIst才会进行监听
+                    this.goodsList = data.items;
+                    //console.log(this.goodsList);
                     //console.log(this.goods.selected);
                 }).catch(()=>{});
             }
