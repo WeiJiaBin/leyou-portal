@@ -388,7 +388,10 @@
                         k: "品牌",
                         options:data.brands
                     });
-
+                    data.specs.forEach(spec =>{
+                        spec.options = spec.options.map(o => ({name:o}));
+                        this.filters.push(spec);
+                    });
                     console.log(data);
                 }).catch(()=>{});
             },

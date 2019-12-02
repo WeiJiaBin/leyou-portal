@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="22dfc1b4-eaf6-45c4-83f7-cf754155ee90" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/search.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-133">
-              <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+            <state relative-caret-position="361">
+              <caret line="391" column="73" lean-forward="true" selection-start-line="391" selection-start-column="73" selection-end-line="391" selection-end-column="73" />
               <folding>
                 <element signature="n#div#2;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#i#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -74,8 +75,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="403" />
-    <option name="y" value="21" />
+    <option name="x" value="467" />
+    <option name="y" value="42" />
     <option name="width" value="1430" />
     <option name="height" value="1020" />
   </component>
@@ -146,7 +147,7 @@
       <workItem from="1575179948741" duration="11961000" />
       <workItem from="1575205493038" duration="265000" />
       <workItem from="1575251848831" duration="38000" />
-      <workItem from="1575289626888" duration="1232000" />
+      <workItem from="1575289626888" duration="1973000" />
     </task>
     <task id="LOCAL-00001" summary="渲染页面1.0">
       <created>1575126429476</created>
@@ -197,14 +198,22 @@
       <option name="project" value="LOCAL" />
       <updated>1575205702293</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2">
+      <created>1575296803547</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1575296803547</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38705000" />
+    <option name="totallyTimeSpent" value="39446000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="550" y="28" width="1144" height="816" extended-state="0" />
+    <frame x="374" y="34" width="1144" height="816" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16206262" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -258,7 +267,8 @@
     <MESSAGE value="聚合前，分页条完成" />
     <MESSAGE value="分类品牌的渲染" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/home.html">
@@ -266,8 +276,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-133">
-          <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+        <state relative-caret-position="361">
+          <caret line="391" column="73" lean-forward="true" selection-start-line="391" selection-start-column="73" selection-end-line="391" selection-end-column="73" />
           <folding>
             <element signature="n#div#2;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#i#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
