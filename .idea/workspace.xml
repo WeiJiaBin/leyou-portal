@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22dfc1b4-eaf6-45c4-83f7-cf754155ee90" name="默认更改列表" comment="">
+    <list default="true" id="22dfc1b4-eaf6-45c4-83f7-cf754155ee90" name="默认更改列表" comment="修改了common中250行的false为true,去掉参数的点之前的前缀，在页面上添加了收起和更多，添加点击事件显示或隐藏。在钩子函数前定义一个obj再赋值给search让vue检测到。">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/search.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -13,13 +12,17 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="429" lean-forward="true" selection-start-line="429" selection-end-line="429" />
+            <state relative-caret-position="180">
+              <caret line="190" column="49" lean-forward="true" selection-start-line="190" selection-start-column="49" selection-end-line="190" selection-end-column="49" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -82,8 +85,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="72" />
-    <option name="y" value="43" />
+    <option name="x" value="232" />
+    <option name="y" value="37" />
     <option name="width" value="1430" />
     <option name="height" value="1020" />
   </component>
@@ -93,7 +96,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,7 +113,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,7 +164,8 @@
       <workItem from="1575251848831" duration="38000" />
       <workItem from="1575289626888" duration="2035000" />
       <workItem from="1575335244834" duration="45000" />
-      <workItem from="1575463675406" duration="4669000" />
+      <workItem from="1575463675406" duration="4942000" />
+      <workItem from="1575554584848" duration="1982000" />
     </task>
     <task id="LOCAL-00001" summary="渲染页面1.0">
       <created>1575126429476</created>
@@ -226,17 +230,24 @@
       <option name="project" value="LOCAL" />
       <updated>1575297534316</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="修改了common中250行的false为true,去掉参数的点之前的前缀，在页面上添加了收起和更多，添加点击事件显示或隐藏。在钩子函数前定义一个obj再赋值给search让vue检测到。">
+      <created>1575470524612</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575470524612</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44222000" />
+    <option name="totallyTimeSpent" value="46477000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="35" width="1144" height="816" extended-state="1" />
+    <frame x="501" y="26" width="1144" height="816" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20349908" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20718232" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="设计器" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -290,7 +301,8 @@
     <MESSAGE value="1" />
     <MESSAGE value="2" />
     <MESSAGE value="前端规格参数聚合渲染" />
-    <option name="LAST_COMMIT_MESSAGE" value="前端规格参数聚合渲染" />
+    <MESSAGE value="修改了common中250行的false为true,去掉参数的点之前的前缀，在页面上添加了收起和更多，添加点击事件显示或隐藏。在钩子函数前定义一个obj再赋值给search让vue检测到。" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改了common中250行的false为true,去掉参数的点之前的前缀，在页面上添加了收起和更多，添加点击事件显示或隐藏。在钩子函数前定义一个obj再赋值给search让vue检测到。" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/home.html">
@@ -330,8 +342,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="429" lean-forward="true" selection-start-line="429" selection-end-line="429" />
+        <state relative-caret-position="180">
+          <caret line="190" column="49" lean-forward="true" selection-start-line="190" selection-start-column="49" selection-end-line="190" selection-end-column="49" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
