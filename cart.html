@@ -271,7 +271,11 @@
         },
         created() {
             ly.verify().then(res => {
-
+                ly.http.get("/cart").then(({data}) =>{
+                    console.log(data);
+                    this.carts = data;
+                    this.selected = this.carts;
+                })
             }).catch(() => {
                 //未登陆购物车的查询
                 this.carts = ly.store.get("LY_CART");
@@ -304,7 +308,7 @@
                 cart.num++;
                 /*判断是否登录*/
                 ly.verify().then(res => {
-
+                    ly.http.put("/cart",{skuId:cart.skuId,num:cart.num});
                 }).catch(() => {
                     //未登陆购物车的查询
                     ly.store.set("LY_CART", this.carts);
@@ -316,7 +320,7 @@
                 }
                 /*判断是否登录*/
                 ly.verify().then(res => {
-
+                    ly.http.put("/cart",{skuId:cart.skuId,num:cart.num});
                 }).catch(() => {
                     //未登陆购物车的查询
                     ly.store.set("LY_CART", this.carts);
@@ -325,7 +329,9 @@
             deleteCart(index) {
                 /*判断是否登录*/
                 ly.verify().then(res => {
-
+                    ly.http.delete("/cart"+this.carts[i].skuId.then(()=>{
+                        this.carts.splice(i, 1);
+                    }))
                 }).catch(() => {
                     //未登陆购物车的查询
                     //删除下标元素

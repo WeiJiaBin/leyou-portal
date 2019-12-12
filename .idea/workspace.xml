@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22dfc1b4-eaf6-45c4-83f7-cf754155ee90" name="默认更改列表" comment="修改了登陆的请求路径匹配后端">
+    <list default="true" id="22dfc1b4-eaf6-45c4-83f7-cf754155ee90" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="328" column="32" lean-forward="true" selection-start-line="328" selection-start-column="32" selection-end-line="328" selection-end-column="32" />
-              <folding>
-                <element signature="e#2095#2101#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="256">
+              <caret line="341" selection-start-line="341" selection-end-line="341" />
             </state>
           </provider>
         </entry>
@@ -34,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="540" column="12" lean-forward="true" selection-start-line="540" selection-start-column="12" selection-end-line="540" selection-end-column="12" />
+            <state relative-caret-position="10127">
+              <caret line="540" column="12" selection-start-line="540" selection-start-column="12" selection-end-line="540" selection-end-column="12" />
               <folding>
                 <element signature="e#16199#16426#0" />
               </folding>
@@ -93,11 +89,11 @@
     <option name="jreName" value="1.8.0_201" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="520" />
-    <option name="y" value="61" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="75" />
+    <option name="y" value="105" />
     <option name="width" value="1430" />
-    <option name="height" value="1085" />
+    <option name="height" value="975" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -105,6 +101,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,7 +124,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,7 +181,10 @@
       <workItem from="1575785832883" duration="1202000" />
       <workItem from="1575814029399" duration="453000" />
       <workItem from="1575965466206" duration="1587000" />
-      <workItem from="1575980262967" duration="3853000" />
+      <workItem from="1575980262967" duration="4137000" />
+      <workItem from="1576066171575" duration="4524000" />
+      <workItem from="1576112067025" duration="238000" />
+      <workItem from="1576112836243" duration="1794000" />
     </task>
     <task id="LOCAL-00001" summary="渲染页面1.0">
       <created>1575126429476</created>
@@ -271,17 +270,23 @@
       <option name="project" value="LOCAL" />
       <updated>1575900623458</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="在common.js中提取了登陆的方法，在cart页面完成了购物车的添加物品，全选，全不选，数量总计，购物总额，删除物品等">
+      <created>1575988155713</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1575988155714</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61124000" />
+    <option name="totallyTimeSpent" value="67964000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="677" y="22" width="1144" height="868" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.043278083" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10589813" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="设计器" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -298,7 +303,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.22521247" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4990792" visible="true" weight="0.20380434" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4990792" visible="true" weight="0.21246459" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50092083" side_tool="true" weight="0.17397662" />
       <window_info anchor="bottom" id="调试" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -338,7 +343,8 @@
     <MESSAGE value="修改了common中250行的false为true,去掉参数的点之前的前缀，在页面上添加了收起和更多，添加点击事件显示或隐藏。在钩子函数前定义一个obj再赋值给search让vue检测到。" />
     <MESSAGE value="修改大图片的动态地址，还要修改ngibx配置文件" />
     <MESSAGE value="修改了登陆的请求路径匹配后端" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改了登陆的请求路径匹配后端" />
+    <MESSAGE value="在common.js中提取了登陆的方法，在cart页面完成了购物车的添加物品，全选，全不选，数量总计，购物总额，删除物品等" />
+    <option name="LAST_COMMIT_MESSAGE" value="在common.js中提取了登陆的方法，在cart页面完成了购物车的添加物品，全选，全不选，数量总计，购物总额，删除物品等" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/home.html">
@@ -415,22 +421,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/common.js">
+    <entry file="file://$PROJECT_DIR$/cart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="540" column="12" lean-forward="true" selection-start-line="540" selection-start-column="12" selection-end-line="540" selection-end-column="12" />
-          <folding>
-            <element signature="e#16199#16426#0" />
-          </folding>
+        <state relative-caret-position="256">
+          <caret line="341" selection-start-line="341" selection-end-line="341" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cart.html">
+    <entry file="file://$PROJECT_DIR$/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="328" column="32" lean-forward="true" selection-start-line="328" selection-start-column="32" selection-end-line="328" selection-end-column="32" />
+        <state relative-caret-position="10127">
+          <caret line="540" column="12" selection-start-line="540" selection-start-column="12" selection-end-line="540" selection-end-column="12" />
           <folding>
-            <element signature="e#2095#2101#0" expanded="true" />
+            <element signature="e#16199#16426#0" />
           </folding>
         </state>
       </provider>
