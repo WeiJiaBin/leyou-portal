@@ -30,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/getOrderInfo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="283" column="52" selection-start-line="283" selection-start-column="52" selection-end-line="283" selection-end-column="52" />
+            <state relative-caret-position="335">
+              <caret line="291" column="62" selection-start-line="291" selection-start-column="62" selection-end-line="291" selection-end-column="62" />
               <folding>
                 <element signature="e#6673#7339#0" />
               </folding>
@@ -92,8 +92,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="151" />
-    <option name="y" value="7" />
+    <option name="x" value="86" />
+    <option name="y" value="33" />
     <option name="width" value="1430" />
     <option name="height" value="975" />
   </component>
@@ -192,7 +192,7 @@
       <workItem from="1576119170804" duration="10000" />
       <workItem from="1576152136021" duration="2118000" />
       <workItem from="1576199789492" duration="136000" />
-      <workItem from="1576239924346" duration="6662000" />
+      <workItem from="1576239924346" duration="7461000" />
     </task>
     <task id="LOCAL-00001" summary="渲染页面1.0">
       <created>1575126429476</created>
@@ -299,14 +299,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576246166549</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="订单编号生成">
+      <created>1576248189352</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1576248189352</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77037000" />
+    <option name="totallyTimeSpent" value="77836000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="446" y="0" width="1144" height="780" extended-state="0" />
+    <frame x="497" y="9" width="1144" height="780" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17034991" />
@@ -368,7 +375,8 @@
     <MESSAGE value="修改了登陆的请求路径匹配后端" />
     <MESSAGE value="在common.js中提取了登陆的方法，在cart页面完成了购物车的添加物品，全选，全不选，数量总计，购物总额，删除物品等" />
     <MESSAGE value="订单页面的渲染" />
-    <option name="LAST_COMMIT_MESSAGE" value="订单页面的渲染" />
+    <MESSAGE value="订单编号生成" />
+    <option name="LAST_COMMIT_MESSAGE" value="订单编号生成" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/home.html">
@@ -464,8 +472,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/getOrderInfo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="283" column="52" selection-start-line="283" selection-start-column="52" selection-end-line="283" selection-end-column="52" />
+        <state relative-caret-position="335">
+          <caret line="291" column="62" selection-start-line="291" selection-start-column="62" selection-end-line="291" selection-end-column="62" />
           <folding>
             <element signature="e#6673#7339#0" />
           </folding>
