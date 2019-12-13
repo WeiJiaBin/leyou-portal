@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22dfc1b4-eaf6-45c4-83f7-cf754155ee90" name="默认更改列表" comment="在common.js中提取了登陆的方法，在cart页面完成了购物车的添加物品，全选，全不选，数量总计，购物总额，删除物品等">
+    <list default="true" id="22dfc1b4-eaf6-45c4-83f7-cf754155ee90" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/getOrderInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/getOrderInfo.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/getOrderInfo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="188" column="89" selection-start-line="188" selection-start-column="89" selection-end-line="188" selection-end-column="89" />
+            <state relative-caret-position="297">
+              <caret line="283" column="52" selection-start-line="283" selection-start-column="52" selection-end-line="283" selection-end-column="52" />
               <folding>
                 <element signature="e#6673#7339#0" />
               </folding>
@@ -93,8 +92,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="212" />
-    <option name="y" value="27" />
+    <option name="x" value="151" />
+    <option name="y" value="7" />
     <option name="width" value="1430" />
     <option name="height" value="975" />
   </component>
@@ -193,7 +192,7 @@
       <workItem from="1576119170804" duration="10000" />
       <workItem from="1576152136021" duration="2118000" />
       <workItem from="1576199789492" duration="136000" />
-      <workItem from="1576239924346" duration="4607000" />
+      <workItem from="1576239924346" duration="6662000" />
     </task>
     <task id="LOCAL-00001" summary="渲染页面1.0">
       <created>1575126429476</created>
@@ -293,14 +292,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576116482563</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="订单页面的渲染">
+      <created>1576246166549</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1576246166549</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74982000" />
+    <option name="totallyTimeSpent" value="77037000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="590" y="27" width="1144" height="780" extended-state="0" />
+    <frame x="446" y="0" width="1144" height="780" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17034991" />
@@ -361,7 +367,8 @@
     <MESSAGE value="修改大图片的动态地址，还要修改ngibx配置文件" />
     <MESSAGE value="修改了登陆的请求路径匹配后端" />
     <MESSAGE value="在common.js中提取了登陆的方法，在cart页面完成了购物车的添加物品，全选，全不选，数量总计，购物总额，删除物品等" />
-    <option name="LAST_COMMIT_MESSAGE" value="在common.js中提取了登陆的方法，在cart页面完成了购物车的添加物品，全选，全不选，数量总计，购物总额，删除物品等" />
+    <MESSAGE value="订单页面的渲染" />
+    <option name="LAST_COMMIT_MESSAGE" value="订单页面的渲染" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/home.html">
@@ -457,8 +464,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/getOrderInfo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="188" column="89" selection-start-line="188" selection-start-column="89" selection-end-line="188" selection-end-column="89" />
+        <state relative-caret-position="297">
+          <caret line="283" column="52" selection-start-line="283" selection-start-column="52" selection-end-line="283" selection-end-column="52" />
           <folding>
             <element signature="e#6673#7339#0" />
           </folding>
