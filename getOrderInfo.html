@@ -289,7 +289,7 @@
 						}).then(({data})=>{
 							//console.log(data);订单编号
 							//跳转订单编号支付页面
-							window.location="http://www.leyou.com/pay.html?onderId="+data;
+							window.location="http://www.leyou.com/pay.html?orderId="+data;
 						})
 					}).catch(() => {
 						//未登陆跳转到登陆界面，登陆后跳转回购物车界面

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22dfc1b4-eaf6-45c4-83f7-cf754155ee90" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/js/qrcode.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/getOrderInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/getOrderInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/pay.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,14 +29,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getOrderInfo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="291" column="62" selection-start-line="291" selection-start-column="62" selection-end-line="291" selection-end-column="62" />
+            <state relative-caret-position="321">
+              <caret line="291" column="77" selection-start-line="291" selection-start-column="77" selection-end-line="291" selection-end-column="77" />
               <folding>
                 <element signature="e#6673#7339#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pay.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="116" column="55" lean-forward="true" selection-start-line="116" selection-start-column="55" selection-end-line="116" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -60,6 +71,7 @@
         <option value="$PROJECT_DIR$/js/common.js" />
         <option value="$PROJECT_DIR$/cart.html" />
         <option value="$PROJECT_DIR$/getOrderInfo.html" />
+        <option value="$PROJECT_DIR$/pay.html" />
       </list>
     </option>
   </component>
@@ -92,8 +104,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="86" />
-    <option name="y" value="33" />
+    <option name="x" value="192" />
+    <option name="y" value="67" />
     <option name="width" value="1430" />
     <option name="height" value="975" />
   </component>
@@ -133,11 +145,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\ideaProject\leyou-portal\js" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -192,7 +209,7 @@
       <workItem from="1576119170804" duration="10000" />
       <workItem from="1576152136021" duration="2118000" />
       <workItem from="1576199789492" duration="136000" />
-      <workItem from="1576239924346" duration="7461000" />
+      <workItem from="1576239924346" duration="9013000" />
     </task>
     <task id="LOCAL-00001" summary="渲染页面1.0">
       <created>1575126429476</created>
@@ -306,17 +323,23 @@
       <option name="project" value="LOCAL" />
       <updated>1576248189352</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="订单页面完成">
+      <created>1576249088612</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1576249088612</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77836000" />
+    <option name="totallyTimeSpent" value="79388000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="497" y="9" width="1144" height="780" extended-state="0" />
-    <editor active="true" />
+    <frame x="154" y="54" width="1144" height="780" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17034991" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23020259" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="设计器" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -333,7 +356,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.22521247" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4990792" visible="true" weight="0.21141975" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4990792" visible="true" weight="0.21141975" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50092083" side_tool="true" weight="0.17397662" />
       <window_info anchor="bottom" id="调试" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -376,7 +399,8 @@
     <MESSAGE value="在common.js中提取了登陆的方法，在cart页面完成了购物车的添加物品，全选，全不选，数量总计，购物总额，删除物品等" />
     <MESSAGE value="订单页面的渲染" />
     <MESSAGE value="订单编号生成" />
-    <option name="LAST_COMMIT_MESSAGE" value="订单编号生成" />
+    <MESSAGE value="订单页面完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="订单页面完成" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/home.html">
@@ -470,13 +494,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/qrcode.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/getOrderInfo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="291" column="62" selection-start-line="291" selection-start-column="62" selection-end-line="291" selection-end-column="62" />
+        <state relative-caret-position="321">
+          <caret line="291" column="77" selection-start-line="291" selection-start-column="77" selection-end-line="291" selection-end-column="77" />
           <folding>
             <element signature="e#6673#7339#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="116" column="55" lean-forward="true" selection-start-line="116" selection-start-column="55" selection-end-line="116" selection-end-column="55" />
         </state>
       </provider>
     </entry>
